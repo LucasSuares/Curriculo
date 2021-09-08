@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ 
+*{
+    font-family: 'Roboto', sans-serif;
+ }
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+#container{
+    width: 960px;
+    height: 1360px;
+    margin: auto;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 25%;
+    border-bottom: solid 2px #2E94B9;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#fundoFoto{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E94B9;
+}
+
+#foto{
+    width: 95%;
+    height: 70%;
+    background-image: url(./img/Perfil.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#capa{
+    width: 75%;
+    height: 100%;
+    background-image: url(./img/capa.png);
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    width: 100%;
+    height: 60%;
+    border-bottom: solid 2px #2E94B9;
+    display: flex;
+    justify-content:space-between;
+}
+
+#titulos{
+    width: 25%;
+    height: 100%;
+    border-right: solid 2px #2E94B9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #475053;
+    color: white;
+}
+
+#titulo1{
+    padding-top: 10px;
+}
+
+#titulo2{
+    padding-bottom: 60px;
+}
+
+#titulo3{
+    padding-bottom: 40px;
+}
+
+#titulo4{
+    padding-bottom: 40px;
+}
+
+#titulo1::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/icons/contato.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#titulo2::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/icons/perfil.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#titulo3::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/icons/curso.png) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+#titulo4::before{
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/icons/skills.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#conteudoPrincipal{
+    width: 75%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+#contato{
+    width: 100%;
+    height: 16%;
+    border-bottom: solid 2px #2E94B9;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#contato, p{
+    padding-bottom: 10px;
+}
+
+#endereco{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+#email{
+    width: 34%;
+    height: 100%;
+    text-align: center;
+}
+#telefone{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#informacoes{
+    width: 100%;
+    height: 84%;
+}
+
+#perfil{
+    text-align: justify;
+    padding: 20px;
+}
+
+#cursos{
+    display: flex;
+    justify-content:space-around;
+}
+
+.curso{
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+
+#curso1{
+    border-top:solid 2px #2E94B9;
+    border-bottom: solid 2px #2E94B9;
+    border-right: solid 2px #2E94B9;
+}
+
+#curso2{
+    border-top:solid 2px #2E94B9;
+    border-bottom: solid 2px #2E94B9;
+}
+
+#skills{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+}
