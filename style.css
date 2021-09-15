@@ -149,19 +149,13 @@ main{
     padding-bottom: 10px;
 }
 
-#endereco{
-    width: 33%;
-    height: 100%;
-    text-align: center;
-}
-
 #email{
-    width: 34%;
+    width: 50%;
     height: 100%;
     text-align: center;
 }
 #telefone{
-    width: 33%;
+    width: 50%;
     height: 100%;
     text-align: center;
 }
